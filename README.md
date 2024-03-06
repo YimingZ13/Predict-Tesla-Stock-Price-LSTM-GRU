@@ -47,9 +47,10 @@ There are no special packages needed for this project, most of packages come wit
 - The best performed model was trained on the data from 2019-11-01 to 2021-09-30. The Root Mean Square Error (RMSE) of 19.87 indicates that, on average, the model's predictions are approximately $19.87 away from the actual stock prices. Given the price scale on the y-axis, an RMSE of 19.87 can be considered relatively small, especially during periods where the stock price exhibits high volatility and large price swings.
 - The model seems capable of capturing both the trend and, to some extent, the volatility of the closing price. The predictions on the test captures the general trend and volatility.
 - Despite the overall good performance, careful attention should be given to any small deviations, especially if the model predictions start to consistently lag behind or overshoot actual values. This isn't evident in the provided graph but is something to monitor with a more granular analysis. The excellent alignment between predictions and actual values in both validation and test phases suggests that overfitting is likely not a concern here, assuming the validation and test sets are appropriately challenging and representative of the problem space.
-![Final Model](https://github.com/YimingZ13/Predict-Tesla-Stock-Price-LSTM-GRU/blob/main/final_model.png)
+<img src=https://github.com/YimingZ13/Predict-Tesla-Stock-Price-LSTM-GRU/blob/main/final_model.png width="600" height=“600”>
 - The graph of the predictions into the next 90 consecutive days, shows significant volatility in the end of the dataset, especially in the period of rapid growth. The model's predictions seem to smooth out this volatility, which is common in many predictive models that may struggle to capture sharp, short-term fluctuations in stock prices. Without seeing the exact metrics (e.g., RMSE, MAE) used to evaluate the model, it's challenging to quantify how well the model fits the historical data. However, visually, it seems to follow the general trend well, which is promising for its potential utility.
-![Future Predictions](https://github.com/YimingZ13/Predict-Tesla-Stock-Price-LSTM-GRU/blob/main/future_predictions.png)
+<img src=https://github.com/YimingZ13/Predict-Tesla-Stock-Price-LSTM-GRU/blob/main/future_predictions.png width="600" height=“600”>
+
 <a name="FutureImprovement"></a>
 ## Future Improvement
 -  Implementing a dynamic model that adjusts its predictions based on new data points received daily could enhance its predictive accuracy over time.
