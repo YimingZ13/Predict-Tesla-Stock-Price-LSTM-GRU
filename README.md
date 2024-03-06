@@ -53,9 +53,6 @@ There are no special packages needed for this project, most of packages come wit
 ## Future Improvement
 -  Implementing a dynamic model that adjusts its predictions based on new data points received daily could enhance its predictive accuracy over time.
 -  Due to stock market's unpredicted nature, implementing a sentiment analysis model as a complement to the LSTM (Long Short-Term Memory) model can significantly enhance its predictive power. Sentiment analysis leverages natural language processing (NLP) techniques to understand the sentiment behind textual data from various sources like news headlines, social media, financial reports, and analyst ratings, which can have a profound impact on stock prices:
-  - Social Media: Collect data from platforms like Twitter and Reddit where financial discussions occur. Use APIs like Tweepy for Twitter to gather tweets related to Tesla.
-  - News Articles: Scrape news articles and financial news websites for Tesla-related content.
-Financial Reports: Quarterly and annual reports from Tesla can provide insights into the company's performance.
 
 <a name="Authors"></a>
 ## Authors
