@@ -33,7 +33,7 @@ There are no special packages needed for this project, most of packages come wit
 
 <a name="FeatureDocumentations"></a>
 ## Feature Documentations
-`2021_donnees_ouvertes.csv`:
+`TSLA.csv`:
 - `Date`: Date (yyyy-MM-dd)
 - `Open`: Price from the first transaction of a trading day
 - `High`: Maximum price in a trading day
